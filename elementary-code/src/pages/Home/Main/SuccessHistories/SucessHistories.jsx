@@ -19,7 +19,7 @@ function SuccessHistories() {
                     <Testimonial
                         name="Lara Silva"
                         photo={student1}
-                        text="Antes de entrar para a Elementary School, eu possuía uma experiência absolutamente nula em programação. Após quase um ano de trabalho no programa, me ofereceram ..."
+                        text="Antes de entrar para a Elementary Code, eu possuía uma experiência absolutamente nula em programação. Após quase um ano de trabalho no programa, me ofereceram ..."
 
                     />
                 </div>
@@ -36,7 +36,7 @@ function SuccessHistories() {
                     <Testimonial
                         name="Giselle Tavares"
                         photo={student3}
-                        text="Antes de encontrar a Elementary School, eu tinha uma orientação limitada no meu aprendizado, alternando entre tópicos e tentando encaixar as peças conforme..."
+                        text="Antes de encontrar a Elementary Code, eu tinha uma orientação limitada no meu aprendizado, alternando entre tópicos e tentando encaixar as peças conforme..."
                     />
                 </div>
                 <div className="col-lg-5 col-md-6 col-sm-12">

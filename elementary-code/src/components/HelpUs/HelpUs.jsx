@@ -11,7 +11,7 @@ function HelpUs() {
                 alignment="center"
             />
             <Paragraph
-                text="A comunidade financia a Elementary School. Apoie a Elementary School para capacitar estudantes globalmente!"
+                text="A comunidade financia a Elementary Code. Apoie a Elementary Code para capacitar estudantes globalmente!"
                 alignment="center"
             />
             <div className="buttons">

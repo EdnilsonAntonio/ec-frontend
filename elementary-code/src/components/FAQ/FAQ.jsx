@@ -27,7 +27,7 @@ const questions = [
     {
         id: crypto.randomUUID(),
         question: 'Não posso doar agora. Existe outro jeito de contribuir?',
-        answer: 'Você pode nos auxiliar contribuindo para nossos projetos de código aberto. Você também pode nos auxiliar divulgando a Elementary School. Diga aos seus amigos, família e colegas de trabalho sobre nós. Divulgue nosso conteúdo nas redes sociais. Quanto mais pessoas nos conhecem, mais pessoas podemos auxiliar.'
+        answer: 'Você pode nos auxiliar contribuindo para nossos projetos de código aberto. Você também pode nos auxiliar divulgando a Elementary Code. Diga aos seus amigos, família e colegas de trabalho sobre nós. Divulgue nosso conteúdo nas redes sociais. Quanto mais pessoas nos conhecem, mais pessoas podemos auxiliar.'
     }
 ]
 
