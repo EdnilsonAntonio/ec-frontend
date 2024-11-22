@@ -59,6 +59,13 @@ hr {
     margin-top: 1rem;
 }
 
+.copyright a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 @media (max-width: 767px) {
     .footer-branding p {
         width: 100%;

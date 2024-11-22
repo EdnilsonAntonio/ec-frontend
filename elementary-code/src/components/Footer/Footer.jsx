@@ -71,6 +71,7 @@ function Footer() {
             </div>
             <div className="copyright">
                 <p>&copy;2024 Elementary Code. Todos os direitos reservados.</p>
+                <p>Um projeto de <a href="https://github.com/EdnilsonAntonio">Ednilson António</a> para <a href="https://www.islagaia.pt/pt/">ISLA GAIA</a></p>
             </div>
         </footer>
     )

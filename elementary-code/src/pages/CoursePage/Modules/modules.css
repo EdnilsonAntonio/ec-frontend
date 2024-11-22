@@ -9,6 +9,22 @@
     .module {
         width: 90%;
     }
+
+    .lesson-title {
+        width: 60%;
+    }
+
+    .lesson-title i {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+    }
+
+    .lesson-title h6 {
+        display: flex;
+        justify-content: start;
+        width: 100%;
+    }
 }
 
 .module-title {
@@ -22,5 +38,5 @@
 }
 
 .lesson-title i {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
