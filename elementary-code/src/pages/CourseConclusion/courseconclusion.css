@@ -1,0 +1,21 @@
+.course-conclusion {
+    width: 100vw !important;
+}
+
+.course-conclusion-main {
+    height: fit-content;
+    background-color: #004AAD;
+    & p {
+        margin-top: 2rem;
+        width: 80%;
+    }
+    & a {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .course-conclusion-main p {
+        width: 100%;
+    }
+}

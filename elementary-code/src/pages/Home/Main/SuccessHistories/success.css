@@ -1,0 +1,24 @@
+.success {
+    width: 100vw;
+    height: fit-content;
+    background-color: #004AAD;
+    padding-top: 4rem;
+    padding-inline: 6rem;
+    padding-bottom: 4rem;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more-testimonials{
+    margin-top: 5rem;
+    color: white;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .success {
+        padding-inline: 2rem;
+    }
+}

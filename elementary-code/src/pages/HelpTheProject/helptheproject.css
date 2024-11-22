@@ -1,0 +1,18 @@
+#help-main {
+    background-color: #004AAD;
+    height: fit-content;
+}
+
+.help-hero {
+    height: 40vh;
+}
+
+.help-hero p {
+    width: 80%;
+}
+
+@media (max-width: 767px) {
+    .help-hero p {
+        width: 100%;
+    }
+}

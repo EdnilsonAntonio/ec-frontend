@@ -1,0 +1,46 @@
+.hero {
+    height: 100vh;
+    padding-top: 10rem;
+    color: white;
+    background-color: #004AAD;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 10vw;
+    isolation: isolate;
+    
+}
+
+p {
+    width: 45%;
+}
+
+.hero-img {
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    right: 1rem;
+    top: 10rem;
+    z-index: -1;
+}
+
+@media (max-width: 767px) {
+    .hero {
+        padding-top: 5rem;
+        padding-inline: 0.5em;
+        height: 70vh;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        width: 100%;
+    }
+
+    .hero-img {
+        left: 0;
+        right: 0;
+        top: 40vh;
+    }
+}

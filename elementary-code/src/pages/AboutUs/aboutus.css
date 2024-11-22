@@ -1,0 +1,17 @@
+.about-us {
+    width: 100vw !important;
+    background-color: #004AAD;
+}
+
+#about-us-main {
+    height: fit-content;
+    & p {
+        width: 70%;
+    }
+}
+
+@media (max-width: 767px) {
+    #about-us-main p {
+        width: 100%;
+    }
+}

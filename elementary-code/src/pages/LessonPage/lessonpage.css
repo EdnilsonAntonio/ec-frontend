@@ -1,0 +1,92 @@
+.lesson-page {
+    width: 100vw;
+}
+.lesson-page-main {
+    height: fit-content;
+    background-color: #004AAD;
+}
+
+.lesson-title {
+    font-size: 1rem;
+    font-family: "Hammersmith One", sans-serif;
+    color: white;
+}
+
+.lesson-content {
+    color: white;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.lesson-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.lesson-content p {
+    width: 80%;
+}
+
+.lesson-content .nav-pills {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-section-paragraph {
+    margin-bottom: 1.5rem;
+    width: 100% !important;
+}
+
+.content-section-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lesson-scroll {
+    width: fit-content;
+    height: fit-content;
+    position: sticky;
+    right: 3rem;
+    top: 20rem;
+    bottom: auto;
+}
+
+.lesson-scroll h4 {
+    padding-inline: 1.5rem;
+}
+
+.lesson-scroll .nav-pills .nav-link {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    /* Remover o lesson-scroll */
+    .lesson-scroll {
+        display: none !important;
+    }
+    /* Diminuir o paddin lateral da página */
+    .lesson-page-main {
+        padding-inline: 0.5rem !important;
+    }
+    .lesson-overview {
+        padding-inline: 1.5rem !important;
+    }
+    /* Ajustar a fonte para mobile */
+    .content-section-paragraph {
+        width: 100% !important;
+    }
+    /* Diminuir a margem superior do conteúdo */
+    .content {
+        margin-top: 2rem !important;
+    }
+    .lesson-title {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .lesson-title h3 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}

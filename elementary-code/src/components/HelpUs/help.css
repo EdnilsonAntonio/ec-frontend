@@ -1,0 +1,14 @@
+.help-us {
+    width: 100vw;
+    height: fit-content;
+    background: linear-gradient(to bottom, #004AAD, #062C65);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}

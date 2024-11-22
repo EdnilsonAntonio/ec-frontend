@@ -1,0 +1,30 @@
+.course {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 13rem;
+    height: 16rem;
+    gap: 1rem;
+    text-align: center;
+    background-color: #004AAD;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    text-decoration: none;
+    
+}
+
+h3 {
+    margin: 0;
+    width: fit-content;
+    font-size: 1.5em;
+}
+
+i {
+    display: flex;
+    justify-content: center;
+}
+

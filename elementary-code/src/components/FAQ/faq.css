@@ -1,0 +1,26 @@
+.faq {
+    background-color: #062C65;
+    width: 100vw;
+    height: fit-content;
+}
+
+.question-box {
+    background-color: #004AAD;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.question-box p {
+    width: fit-content;
+}
+
+.question-box h1 {
+    margin-bottom: 1rem;
+}
+
+@media(max-width: 768px) {
+    .question-box p {
+        width: 100%;
+    }
+}

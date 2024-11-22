@@ -1,0 +1,35 @@
+.testimonial {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: fit-content;
+}
+
+.testimonial-content {
+    max-width: 500px;
+}
+
+.testimonial-content p {
+    width: 80%;
+}
+
+.testimonial-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+
+h5 {
+    width: fit-content;
+    color: white;
+    font-weight: 400;
+    text-decoration: underline;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+@media (max-width: 767px) {
+    .testimonial-content p {
+        width: 100%;
+    }
+}

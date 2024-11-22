@@ -1,0 +1,42 @@
+nav {
+    background-color: #004AAD;
+    font-family: "Hammersmith One", sans-serif;
+}
+
+nav a {
+    cursor: pointer !important;
+}
+
+
+.navbar-brand {
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .container-fluid {
+        padding-inline: 1rem !important;
+    }
+    .fi-rr-user-skill-gear {
+        padding-bottom: 1rem !important;
+    }
+}
+
+.fi-rr-user-skill-gear {
+    color: #FFFFFF8C;
+    font-size: 16px;
+    display: flex !important;
+    align-items: center;
+    position: relative;
+}
+
+.fi-rr-user-skill-gear:hover {
+    color: #FFFFFFBF;
+}
+
+.fi-rr-user-skill-gear:before {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    font-size: 18px;
+
+}
