@@ -87,13 +87,13 @@ function LessonPage() {
                 />
                 <section className="lesson-overview w-100 px-5 d-flex flex-column">
                     <div className="lesson-title mt-4 justify-content-start">
-                        <h3 className='d-flex gap-3'>
+                        <span className='d-flex gap-3'>
                             {lesson.type === 'Normal'
                                 ? <i className="fi fi-rr-book-alt"></i>
                                 : <i className="fi fi-rr-tools"></i>
                             }
-                            {lesson.title}
-                        </h3>
+                            <h3>{lesson.title}</h3>
+                        </span>
                     </div>
                     <div className="lesson-content" dangerouslySetInnerHTML={{ __html: lesson.content }}>
                     </div>
