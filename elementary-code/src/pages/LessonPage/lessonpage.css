@@ -40,6 +40,10 @@
     flex-direction: column;
 }
 
+.content-section {
+    margin-block: 1rem !important;
+}
+
 .content-section-paragraph {
     margin-bottom: 1.5rem;
     width: 100% !important;
