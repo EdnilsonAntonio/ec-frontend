@@ -12,6 +12,10 @@
     color: white;
 }
 
+.lesson-content a {
+    color: white;
+}
+
 .lesson-content {
     color: white;
     font-family: "Hanken Grotesk", sans-serif;
