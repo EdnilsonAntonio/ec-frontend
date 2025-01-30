@@ -23,7 +23,7 @@
 
 .lesson-content span {
     font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.6em;
 }
 
 .lesson-title span i {
@@ -33,6 +33,7 @@
 
 .lesson-content p {
     width: 80%;
+    margin-bottom: 1.25em;
 }
 
 .lesson-content h3 {
